@@ -1,4 +1,4 @@
-package _01_primeiro_programa;
+package _01_first_software;
 
 public class Main {
 
