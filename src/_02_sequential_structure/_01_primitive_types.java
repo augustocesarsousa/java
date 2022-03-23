@@ -1,6 +1,6 @@
 package _02_sequential_structure;
 
-public class _01_primitives_types {
+public class _01_primitive_types {
 
 	public static void main(String[] args) {
 		
