@@ -1,8 +1,8 @@
-package _03_conditional_structure.exercises;
+package _03_conditionalStructure.exercises;
 
 import java.util.Scanner;
 
-public class multiples {
+public class Multiples {
 
   public static void main(String[] args) {
 

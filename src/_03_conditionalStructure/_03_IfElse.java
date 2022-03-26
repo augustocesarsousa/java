@@ -1,8 +1,8 @@
-package _03_conditional_structure;
+package _03_conditionalStructure;
 
 import java.util.Scanner;
 
-public class _03_if_else {
+public class _03_IfElse {
 
   public static void main(String[] args) {
 

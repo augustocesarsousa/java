@@ -1,8 +1,8 @@
-package _04_repetitive_structure;
+package _04_repetitiveStructure;
 
 import java.util.Scanner;
 
-public class _02_for {
+public class _02_For {
 
   public static void main(String[] args) {
 

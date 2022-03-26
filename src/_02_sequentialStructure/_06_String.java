@@ -1,4 +1,4 @@
-package _02_sequential_structure;
+package _02_sequentialStructure;
 
 public class _06_String {
 

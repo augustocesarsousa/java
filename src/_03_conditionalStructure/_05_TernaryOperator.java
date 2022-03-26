@@ -1,8 +1,8 @@
-package _03_conditional_structure;
+package _03_conditionalStructure;
 
 import java.util.Scanner;
 
-public class _05_ternary_operator {
+public class _05_TernaryOperator {
 
   public static void main(String[] args) {
 

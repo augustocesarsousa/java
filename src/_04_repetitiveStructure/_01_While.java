@@ -1,8 +1,8 @@
-package _04_repetitive_structure;
+package _04_repetitiveStructure;
 
 import java.util.Scanner;
 
-public class _03_do_while {
+public class _01_While {
 
   public static void main(String[] args) {
 
@@ -12,13 +12,13 @@ public class _03_do_while {
 
     System.out.println("Enter a number:");
     number = scanner.nextInt();
-    multiplier = 0;
+    multiplier = 1;
 
-    do {
-      multiplier += 1;
+    while (multiplier < 11) {
       result = number * multiplier;
       System.out.printf("%d x %d = %d\n", number, multiplier, result);
-    } while (multiplier < 10);
+      multiplier += 1;
+    }
 
     scanner.close();
 

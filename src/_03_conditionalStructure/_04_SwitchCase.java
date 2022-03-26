@@ -1,8 +1,8 @@
-package _03_conditional_structure;
+package _03_conditionalStructure;
 
 import java.util.Scanner;
 
-public class _04_switch_case {
+public class _04_SwitchCase {
 
   public static void main(String[] args) {
 
