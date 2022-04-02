@@ -1,6 +1,5 @@
 package _07_vectorsAndLists;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 import _07_vectorsAndLists.entities.Product;
@@ -8,15 +7,13 @@ import _07_vectorsAndLists.entities.Product;
 public class _02_VectorWithObject {
 
   public static void main(String[] args) {
-
-    Locale.setDefault(Locale.US);
     Scanner scanner = new Scanner(System.in);
 
     System.out.print("Enter the quantity of products: ");
     int vectorLength = scanner.nextInt();
     Product[] vector = new Product[vectorLength];
 
-    for (int i = 0; i < vectorLength; i++) {
+    for (int i = 0; i < vector.length; i++) {
       scanner.nextLine();
       System.out.printf("Enter name of product %d: ", i + 1);
       String name = scanner.nextLine();
@@ -28,7 +25,7 @@ public class _02_VectorWithObject {
     }
 
     double sum = 0.0;
-    for (int i = 0; i < vectorLength; i++) {
+    for (int i = 0; i < vector.length; i++) {
       sum += vector[i].getPrice();
     }
 
