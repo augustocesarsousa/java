@@ -2,9 +2,6 @@ package _07_vectorsAndLists;
 
 import java.util.Scanner;
 
-/**
- * _05_matrix
- */
 public class _05_matrix {
 
   public static void main(String[] args) {
