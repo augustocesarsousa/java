@@ -5,7 +5,7 @@ import java.util.Date;
 import _09_enumerationAndComposition.entities.Order;
 import _09_enumerationAndComposition.entities.enums.OrderStatus;
 
-public class Enum {
+public class _01_Enum {
 
   public static void main(String[] args) {
 
