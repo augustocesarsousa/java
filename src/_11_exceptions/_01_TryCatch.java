@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * _01_tryCatch
  */
-public class _01_tryCatch {
+public class _01_TryCatch {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
