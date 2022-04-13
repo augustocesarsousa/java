@@ -7,7 +7,7 @@ import _13_interfaces.entities.ConcreteScanner;
 /**
  * MultipleHeritage
  */
-public class MultipleHeritage {
+public class _02_MultipleHeritage {
 
   public static void main(String[] args) {
 

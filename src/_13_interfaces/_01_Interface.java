@@ -14,7 +14,7 @@ import _13_interfaces.services.RentalService;
 /**
  * Interface
  */
-public class Interface {
+public class _01_Interface {
 
   public static void main(String[] args) throws ParseException {
     Locale.setDefault(Locale.US);
@@ -37,25 +37,21 @@ public class Interface {
     double pricePerDay = sc.nextDouble();
 
     RentalService rentalService = new RentalService(
-      pricePerDay,
-      pricePerHour,
-      new BrazilTaxService()
-    );
+        pricePerDay,
+        pricePerHour,
+        new BrazilTaxService());
 
     rentalService.processInvoice(cr);
 
     System.out.println("INVOICE:");
     System.out.println(
-      "Basic payment: " +
-      String.format("%.2f", cr.getInvoice().getBasicPayment())
-    );
+        "Basic payment: " +
+            String.format("%.2f", cr.getInvoice().getBasicPayment()));
     System.out.println(
-      "Tax: " + String.format("%.2f", cr.getInvoice().getTax())
-    );
+        "Tax: " + String.format("%.2f", cr.getInvoice().getTax()));
     System.out.println(
-      "Total payment: " +
-      String.format("%.2f", cr.getInvoice().getTotalPayment())
-    );
+        "Total payment: " +
+            String.format("%.2f", cr.getInvoice().getTotalPayment()));
 
     sc.close();
   }

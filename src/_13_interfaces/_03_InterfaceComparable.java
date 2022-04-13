@@ -12,7 +12,7 @@ import _13_interfaces.entities.Employee;
 /**
  * InterfaceComparable
  */
-public class InterfaceComparable {
+public class _03_InterfaceComparable {
 
   public static void main(String[] args) {
     List<Employee> employees = new ArrayList<>();
