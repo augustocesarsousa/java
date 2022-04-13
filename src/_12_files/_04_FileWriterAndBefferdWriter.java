@@ -1,4 +1,4 @@
-package _12_Files;
+package _12_files;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -13,7 +13,11 @@ public class _04_FileWriterAndBefferdWriter {
     String[] names = new String[] { "Sushi", "Zeus", "Thor", "Nino" };
     String path = "/home/augusto/Documents/test2.txt";
 
-    try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(path, true))) {
+    try (
+      BufferedWriter bufferedWriter = new BufferedWriter(
+        new FileWriter(path, true)
+      )
+    ) {
       for (String name : names) {
         bufferedWriter.write(name);
         bufferedWriter.newLine();

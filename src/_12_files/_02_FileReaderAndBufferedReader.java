@@ -1,4 +1,4 @@
-package _12_Files;
+package _12_files;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

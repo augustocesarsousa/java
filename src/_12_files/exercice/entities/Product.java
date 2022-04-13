@@ -1,4 +1,4 @@
-package _12_Files.exercice.entities;
+package _12_files.exercice.entities;
 
 /**
  * Product
@@ -9,8 +9,7 @@ public class Product {
   private Double price;
   private Integer quantity;
 
-  public Product() {
-  }
+  public Product() {}
 
   public Product(String name, Double price, Integer quantity) {
     this.name = name;
@@ -48,7 +47,14 @@ public class Product {
 
   @Override
   public String toString() {
-    return "Product [name=" + name + ", price=" + price + ", quantity=" + quantity + "]";
+    return (
+      "Product [name=" +
+      name +
+      ", price=" +
+      price +
+      ", quantity=" +
+      quantity +
+      "]"
+    );
   }
-
 }

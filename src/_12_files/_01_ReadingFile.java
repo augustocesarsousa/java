@@ -1,4 +1,4 @@
-package _12_Files;
+package _12_files;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,5 +26,4 @@ public class _01_ReadingFile {
       }
     }
   }
-
 }

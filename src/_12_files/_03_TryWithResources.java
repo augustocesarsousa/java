@@ -1,4 +1,4 @@
-package _12_Files;
+package _12_files;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -8,10 +8,13 @@ import java.io.IOException;
  * _03_TryWithResources
  */
 public class _03_TryWithResources {
+
   public static void main(String[] args) {
     String path = "/home/augusto/Documents/test.txt";
 
-    try (BufferedReader bufferedReader = new BufferedReader(new FileReader(path))) {
+    try (
+      BufferedReader bufferedReader = new BufferedReader(new FileReader(path))
+    ) {
       String line = bufferedReader.readLine();
 
       while (line != null) {
