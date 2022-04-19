@@ -37,6 +37,14 @@ public class Product {
         return price >= 150.0;
     }
 
+    public static void staticPriceUpdate(Product product) {
+        product.setPrice(product.getPrice() * 1.1);
+    }
+
+    public void nonStaticPriceUpdate() {
+        price = price * 1.1;
+    }
+
     @Override
     public String toString() {
         return "Product [" + name + ", " + String.format("%.2f", price) + "]";
