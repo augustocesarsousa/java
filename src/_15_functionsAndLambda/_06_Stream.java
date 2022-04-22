@@ -1,4 +1,4 @@
-package _15_functionsAndLambda.util;
+package _15_functionsAndLambda;
 
 import java.util.Arrays;
 import java.util.List;
