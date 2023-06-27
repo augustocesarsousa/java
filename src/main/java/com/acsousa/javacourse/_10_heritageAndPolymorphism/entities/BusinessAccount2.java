@@ -1,0 +1,52 @@
+package com.acsousa.javacourse._10_heritageAndPolymorphism.entities;
+
+public class BusinessAccount2 extends AbstractAccount {
+
+  private Double loanLimit;
+
+  public BusinessAccount2() {
+    super();
+  }
+
+  public BusinessAccount2(
+      Integer number,
+      String holder,
+      Double balance,
+      Double loanLimit) {
+    super(number, holder, balance);
+    this.loanLimit = loanLimit;
+  }
+
+  public Double getLoanLimit() {
+    return loanLimit;
+  }
+
+  public void setLoanLimit(Double loanLimit) {
+    this.loanLimit = loanLimit;
+  }
+
+  public void loan(double amount) {
+    if (amount <= loanLimit) {
+      balance += amount - 10;
+    }
+  }
+
+  @Override
+  public void withdraw(double amount) {
+    super.withdraw(amount);
+    balance -= 2.0;
+  }
+
+  @Override
+  public String toString() {
+    return ("BusinessAccount [number = " +
+        getNumber() +
+        ", holder = " +
+        getHolder() +
+        ", balance = " +
+        balance +
+        ", loanLimit = " +
+        loanLimit +
+        "]");
+  }
+}
