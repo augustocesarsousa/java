@@ -47,5 +47,14 @@ public class _09_Print {
     System.out.printf("%d / %d = %.3f%n", numero1, numero2, (double) numero1 / numero2);
     System.out.printf("%d / %d = %.4f%n", numero1, numero2, (double) numero1 / numero2);
     System.out.printf("%d / %d = %.5f%n", numero1, numero2, (double) numero1 / numero2);
+
+    /*
+      Podemos utilizar uma sequência de scape para imprimir caracteres especiais
+      utilizamos o caractere de barra invertida \ mais o caractere que desejamos
+     */
+
+    // Imprimindo texto com aspas
+    System.out.println("Utilizando \"scape\" para imprimir caracteres especiais");
+    System.out.println("C:\\Windows\\System32");
   }
 }
