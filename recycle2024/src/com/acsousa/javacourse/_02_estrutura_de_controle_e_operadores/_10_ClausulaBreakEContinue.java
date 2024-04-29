@@ -15,8 +15,8 @@ public class _10_ClausulaBreakEContinue {
 
     // Testes
     System.out.printf("Break:%n%n");
-    for (int i = 0;i < 10; i++) {
-      if(i == 7) {
+    for (int i = 0; i < 10; i++) {
+      if (i == 7) {
         break;
       }
 
@@ -25,8 +25,8 @@ public class _10_ClausulaBreakEContinue {
 
     System.out.printf("%nContinue:%n%n");
 
-    for (int i = 0;i < 10; i++) {
-      if(i == 5) {
+    for (int i = 0; i < 10; i++) {
+      if (i == 5) {
         continue;
       }
 
