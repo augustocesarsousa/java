@@ -13,4 +13,7 @@ public class _01_Carro {
   String modelo;
   int anoFabricacao;
   String versao;
+
+  // Composição de objeto
+  _03_Pessoa proprietario;
 }
