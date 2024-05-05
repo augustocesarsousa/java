@@ -1,6 +1,6 @@
-package com.acsousa.javacourse._03_OrientacaoObjeto;
+package com.acsousa.javacourse._03_OrientacaoObjeto._04_MetodoDoObjeto;
 
-public class _04_Cachorro {
+public class Cachorro {
 
   /*
     Métodos em Java são utilizados para representar as ações dos objetos
@@ -11,7 +11,7 @@ public class _04_Cachorro {
   int idade;
 
   // Método latir do objeto cachorro
-  public void latir() {
+  void latir() {
     System.out.println(nome + " está latindo! Au au au!");
   }
 

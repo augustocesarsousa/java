@@ -1,4 +1,4 @@
-package com.acsousa.javacourse._02_estrutura_de_controle_e_operadores;
+package com.acsousa.javacourse._02_EstruturaDeControleEOperadores;
 
 public class _10_ClausulaBreakEContinue {
 

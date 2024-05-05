@@ -1,4 +1,4 @@
-package com.acsousa.javacourse._01_fundamentos;
+package com.acsousa.javacourse._01_Fundamentos;
 
 public class _06_ConversaoTiposPrimitivos {
   public static void main(String[] args) {

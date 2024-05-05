@@ -1,10 +1,10 @@
-package com.acsousa.javacourse._03_OrientacaoObjeto;
+package com.acsousa.javacourse._03_OrientacaoObjeto._04_MetodoDoObjeto;
 
-public class _04_Metodo {
+public class Main {
 
   public static void main(String[] args) {
 
-    _04_Cachorro cachorro = new _04_Cachorro();
+    Cachorro cachorro = new Cachorro();
 
     cachorro.nome = "Caramelo";
     cachorro.raca = "Vira-lata";

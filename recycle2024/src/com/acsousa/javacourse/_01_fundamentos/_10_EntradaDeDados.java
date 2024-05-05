@@ -1,4 +1,4 @@
-package com.acsousa.javacourse._01_fundamentos;
+package com.acsousa.javacourse._01_Fundamentos;
 
 import java.util.Scanner;
 

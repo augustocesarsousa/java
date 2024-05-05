@@ -1,6 +1,6 @@
-package com.acsousa.javacourse._03_OrientacaoObjeto;
+package com.acsousa.javacourse._03_OrientacaoObjeto._01_CriandoObjeto;
 
-public class _01_Carro {
+public class Carro {
 
   /*
     Podemos representar um elemento do mundo real na programação utilizando o paradgma de Orientação a Objeto
@@ -13,7 +13,4 @@ public class _01_Carro {
   String modelo;
   int anoFabricacao;
   String versao;
-
-  // Composição de objeto
-  _03_Pessoa proprietario;
 }
