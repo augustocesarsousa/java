@@ -11,7 +11,7 @@ public class Main {
      */
 
     // Formas de declarar um array
-    
+
     // Declaração sem atribuição
     int[] array1 = new int[10];
 
