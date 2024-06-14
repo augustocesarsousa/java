@@ -1,12 +1,13 @@
-package com.acsousa.javacourse._06_Memoria._01_ConsultandoMemoriaDaJVM;
+package com.acsousa.javacourse._06_Memoria._02_GarbageCollector;
 
 public class Main {
 
   public static void main(String[] args) {
 
     /*
-      Em Java podemos verificar o consumo de memória da JVM e do programa através da classe Runtime.getRuntime(),
-      essa classe fornece métodos que auxiliam na verificação do consumo de mamória usada.
+      O Garbage Collector tem a função de liberar a memória que não está mais sendo utilizada no programa,
+      não podemos forçar a sua execução via código, mas podemos sugerir para a JVM que ele deve ser executado
+      utilizando o método System.gc()
      */
 
     // imprimindo a memória usada ao iniciar o programa
@@ -17,6 +18,16 @@ public class Main {
 
     // imprimindo a memória após a criação do array
     imprimirMemoria();
+
+    // desalocando o objeto criado para que o GC possa eliminá-lo da memória
+    maisMemoria = null;
+
+    // sugerindo a JVM que execute o GC
+    System.gc();
+
+    // imprimindo a memória para conferir se ela foi desalocada
+    imprimirMemoria();
+
   }
 
   static void imprimirMemoria() {
